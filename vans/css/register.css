@@ -1,0 +1,146 @@
+h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #666;
+    font-size: 100%;
+}
+
+body{
+    background: #f1f2ed;
+    color:#666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+}
+input{
+    border:1px solid #ccc;
+}
+a{
+    text-decoration:none !important;
+}
+/* 整体框架样式--------- */
+.MAIN>.register-page-wrap {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.MAIN>.register-page-wrap #page-register{
+    width:600px;
+    margin:0 auto;
+    border:1px solid #c9caca;
+    background: #fff;
+    padding-bottom:20px;
+}
+/* 标题样式--------- */
+.MAIN>.register-page-wrap #page-register .register-title {
+    margin-top: 35px;
+    border: 0;
+    margin-bottom: 10px;
+    padding-left: 59px;
+    height:44px;
+}
+.register-title>h2 {
+    border-bottom: 2px solid;
+    padding: 0px;
+    color: #C9192E;
+    font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+    width:160px;
+    text-align: left;
+    float:left;
+    background:#fff;
+    cursor: pointer;
+}
+/* 列表样式------- */
+ul>li.form-action {
+    margin-bottom: 20px ;
+    /* font-size: 116.66667%; */
+}
+ul>li.form-action .form-act {
+    padding-left: 59px;
+    margin-left: 0;
+    position: relative;
+    display: block;
+}
+/* 验证码输入框----- */
+li .form-act .x-input {
+    width: 458px;
+    height: 50px;
+    line-height: 26px;
+    padding: 11px 0;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: "Franklin","冬青黑体","microsoft yahei";
+    box-sizing: content-box;
+    border-width: 1px;
+}
+li .form-act .verify-input {
+    width: 270px;
+    margin-right: 8px;
+}
+/* 验证码按钮---- */
+li .btn-code {
+    display:inline-block;
+    width: 175px ; 
+    height: 50px ;
+    line-height: 50px ;
+    background: #000 ;
+    text-align: center ;
+    font-size: 16px ;
+    color: #fff !important;
+}
+/* 注册按钮------ */
+li span.form-act2 {
+    padding-left: 59px;
+    margin-left: 0;
+    position: relative;
+}
+li .form-act2 a>span,li .form-act2:hover{
+    text-decoration: none !important;
+} 
+li .form-act2 button {
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    font-size: 16px;
+    border: 0;
+    background: #C9192E;
+    color: #fff !important;
+    transition: all .5s ease;
+}
+li .form-act2 button:hover{
+    background: #000;
+    filter: none;
+    cursor: pointer;
+}
+/* 选项checkbox------------*/
+/* 填充checkbox图片 */
+ul>li:nth-child(6) .checked{
+    width:20px;
+    height:20px;
+    background:url(/image/checkbox-acitve.svg) center center no-repeat;
+    background-size:16px 16px;
+    vertical-align: middle;
+}
+/* 隐藏原有样式checkbox */
+ul>li:nth-child(6) .checked input{
+    width:20px;
+    height:20px;
+    opacity:0;
+}
+/* 选项box文字样式 */
+ul>li:nth-child(6) .form_lable{
+    font-size:16px;
+    margin-left:0;
+    margin-right:15px;
+    vertical-align:middle;
+    color: #d2d2d2;
+}
+ul>li:nth-child(6) .form_lable>a.contract{
+    color: #D8D9D5;
+    text-decoration:underline !important;
+    margin:0;
+}
+ul>li:nth-child(6) .form_lable>a.contract:hover{
+    color:#C9192E;
+}

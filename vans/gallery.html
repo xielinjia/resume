@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <header id="Heade"></header>
+    <div class="banner_div">
+        <div class="banner_box">
+            <div class="banner_left">
+                <div class="left_nav">
+                    <a href="#" class="bebnav"><span>首页</span></a>
+                    <a href="#" class="bebnav"><span>中性鞋</span></a>
+                </div>
+            </div>
+            <div class="banner_right">
+                <div class="right_box">
+                    <label for>排序：</label>
+                    <span>最新</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <div class="selected-sort" >
+                    <a href="javascript:void(0);" class="action-sort active" data-sort>最新</a>
+                    <a href="javascript:void(0);" class="action-sort" data-sort="price desc">按价格 从高到低</a>
+                    <a href="javascript:void(0);" class="action-sort" data-sort="price asc">按价格 从低到高</a>
+                    <a href="javascript:void(0);" class="action-sort" data-sort="uptime desc">最新上架时间</a>
+                    <a href="javascript:void(0);" class="action-sort" data-sort="buy_count desc">销量 从高到低</a>
+                    <a href="javascript:void(0);" class="action-sort" data-sort="buy_count desc">销量 从低到高</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maxIn">
+        <div class="gallery_banner">
+            <a href="#"><img src="/image/banner.jpg" alt="#"></a>
+        </div>
+        <div class="main">
+            <div class=" col-4 filter_container clear" >
+                <div class="gallery_filter clear">
+                    <div class="filter_lists clear">
+                        <dl>
+                            <dt class="dt1">颜色<span class="checked1"></span></dt>
+                            <dd class="dd1">
+                                <span><a href="#">黑色</a></span>
+                                <span><a href="#">灰色</a></span>
+                                <span><a href="#">白色</a></span>
+                                <span><a href="#">米黄色</a></span>
+                                <span><a href="#">黄色</a></span>
+                                <span><a href="#">卡其色</a></span>
+                                <span><a href="#">绿色</a></span>
+                                <span><a href="#">金色</a></span>
+                                <span><a href="#">银色</a></span>
+                                <span><a href="#">橙色</a></span>
+                                <span><a href="#">粉红色</a></span>
+                                <span><a href="#">红色</a></span>
+                                <span><a href="#">酒红色</a></span>
+                                <span><a href="#">咖啡色</a></span>
+                                <span><a href="#">蓝色</a></span>
+                                <span><a href="#">深蓝色</a></span>
+                                <span><a href="#">浅蓝色</a></span>
+                                <span><a href="#">紫色</a></span>
+                                <span><a href="#">肉色</a></span>
+                                <span><a href="#">其他</a></span>
+                                <span><a href="#">双色搭配</a></span>
+                                <span><a href="#">花色</a></span>
+                                <span><a href="#">棕色</a></span>
+                                <span><a href="#">土黄色</a></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="dt2">鞋码<span class="checked2"></span></dt>
+                            <dd class="dd2">
+                                <span><a href="#">36</a></span>
+                                <span><a href="#">36.5</a></span>
+                                <span><a href="#">37</a></span>
+                                <span><a href="#">37.5</a></span>
+                                <span><a href="#">38</a></span>
+                                <span><a href="#">38.5</a></span>
+                                <span><a href="#">39</a></span>
+                                <span><a href="#">39.5</a></span>
+                                <span><a href="#">40</a></span>
+                                <span><a href="#">40.5</a></span>
+                                <span><a href="#">41</a></span>
+                                <span><a href="#">41.5</a></span>
+                                <span><a href="#">42</a></span>
+                                <span><a href="#">42.5</a></span>
+                                <span><a href="#">43</a></span>
+                                <span><a href="#">43.5</a></span>
+                                <span><a href="#">44</a></span>
+                                <span><a href="#">44.5</a></span>
+                                <span><a href="#">45</a></span>
+                                <span><a href="#">45.5</a></span>
+                                <span><a href="#">46</a></span>
+                                <span><a href="#">46.5</a></span>
+                                <span><a href="#">47</a></span>
+                                <span><a href="#">48</a></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="dt3">鞋服配<span class="checked3"></span></dt>
+                            <dd class="dd3">
+                                <span><a href="#">鞋</a></span>
+                                <span><a href="#">服装</a></span>
+                                <span><a href="#">配件</a></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="dt4">穿法<span class="checked4"></span></dt>
+                            <dd class="dd4">
+                                <span><a href="#">系带</a></span>
+                                <span><a href="#">一脚蹬</a></span>
+                                <span><a href="#">魔术贴</a></span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="dt5">鞋帮<span class="checked5"></span></dt>
+                            <dd class="dd5">
+                                <span><a href="#">低帮</a></span>
+                                <span><a href="#">中帮</a></span>
+                                <span><a href="#">高帮</a></span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-8 gallery_show">
+                <div class="gallery_grid">
+                    <ul>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img class="img1" id="img" src="/image/goods_pic1.jpg" alt="/image/goods_pic1_active.jpg">
+                                    <!-- <img src="/image/goods_pic1_active.jpg" alt="#"> -->
+                                </a>
+                                <a href="#" class="a">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img class="img1" src="/image/goods_pic1.jpg" alt="/image/goods_pic1_active.jpg">
+                                    <!-- <img src="/image/goods_pic1_active.jpg" alt="#"> -->
+                                </a>
+                                <a href="#" class="a_btn">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img class="img1" src="/image/goods_pic1.jpg" alt="/image/goods_pic1_active.jpg">
+                                    <!-- <img src="/image/goods_pic1_active.jpg" alt="#"> -->
+                                </a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="goods_item">
+                            <div class="goods_pic">
+                                <a href="#"><img src="/image/goods_pic1.jpg" alt="#"><img src="/image/goods_pic1_active.jpg" alt="#"></a>
+                                <a href="#">快速购买</a>
+                            </div>
+                            <div class="goods_info">
+                                <h3><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h3>
+                                <div class="goods_price">
+                                    <p>￥635.00</p>
+                                </div>
+                            </div>
+                        </li>                          
+                    </ul>
+                </div>
+                <div id="loadMore">
+                    <span>查看更多</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="suppose">
+        <dl class="goods_shopmax">
+            <dt>
+                <h3>猜你喜欢</h3>
+            </dt>
+            <dd>
+                <div class="maxContent clearfix">
+                    <div class="itemWrap active">
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul1.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul1.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul1.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul1.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemWrap">
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul2.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk10-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥666.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul2.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul2.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul2.jpg" alt=""></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemWrap">
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul3.jpg" alt="#"></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk12-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥999.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul3.jpg" alt="#"></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul3.jpg" alt="#"></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="p"><a href=""><img src="/image/gallery-caroul3.jpg" alt="#"></a></div>
+                            <div class="i">
+                               <h6><a href="#">Sk8-Hi Reissue 男女款板鞋</a></h6> 
+                               <div><span><em>￥635.00</em></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="prev" style="">pre</a> -->
+                <a href="javascript:;" class="next">换一批</a>
+            </dd>
+        </dl>
+    </div>
+
+
+
+
+    <footer id="maxFooter"></footer> 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header.js"></script>    
+    <script src="js/footer.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

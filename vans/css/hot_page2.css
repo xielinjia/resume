@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #666;
+    font-size: 100%;
+}
+body{
+    /* background: #f1f2ed; */
+    color:#666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+}
+/* footer样式修改----- */
+.maxFooter{
+    margin-top:0 !important;
+}
+/* 背景样式--- */
+.active_body{
+    width:100%;
+    background:url(../image/banner_bg.jpg) !important;
+    background-size:100% 100%;
+    padding-bottom:45px;
+}
+/* banner模块样式--- */
+.active_body>.active_banner{
+    width:100%;
+    max-width:1440px;
+    position:relative;
+    margin:0 auto;
+    margin-bottom:6px;
+    overflow:hidden;
+
+}
+.active_body>.active_banner>.bottom{
+    position:absolute;
+    left:50%;
+    bottom:20px;
+    margin-left:-90px;
+}
+.active_body>.active_banner>.bottom>a{
+    background:#000;
+    color:#fff;
+    width:180px;
+    height:46px;
+    line-height:46px;
+    font-size:16px; 
+    text-align: center;
+    margin-top:10px;
+    display:block;
+    box-sizing:border-box;
+}
+/* ad模块样式--- */
+/* ad模块样式--- 图片*/
+.active_body>.active_ad_list{
+    width:100%;
+    max-width:1440px;
+    position:relative;
+    margin:0 auto;
+}
+.active_body>.active_ad_list>ul::after{
+    display:block;
+    content:'';
+    clear:both;
+}
+.active_body>.active_ad_list>ul>li{
+    width:50%;
+    position:relative;
+    float:left;
+    box-sizing:border-box;
+    margin-bottom:6px;
+    overflow:hidden;
+}
+.active_body>.active_ad_list>ul>li.inline_first{
+    padding-right:3px;
+}
+.active_body>.active_ad_list>ul>li.inline_last{
+    padding-left:3px;
+}
+.active_body>.active_ad_list>ul>li a.img{
+    display:block;
+    overflow:hidden;
+}
+/* ad模块样式--- 标签及按钮*/
+.active_ad_list>ul>li>div.text{
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:20px 22px;
+    box-sizing:border-box;
+    width:100%;
+}
+.active_ad_list>ul>li>div.text>p{
+    font-size: 22px;
+    color:#fff;
+    line-height:1.1;
+    padding-top:5px;
+    padding-bottom:7px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei" !important;
+    font-weight:bold;
+}
+.active_ad_list>ul>li>div.text>a{
+    width:180px;
+    height:46px;
+    background:#000;
+    color:#fff;
+    font-size:16px;
+    line-height:46px;
+    text-align:center;
+    margin-top:10px;
+    box-sizing:border-box;
+    display: block;
+}
+/* 综合样式修饰---- */
+a{
+    text-decoration:none !important;
+}
+.bottom>a:hover,.text>a:hover{
+    background:red !important;
+}
+.active_body img{
+    transition: all 0.5s ease;
+}
+.active_body img:hover{
+    transform: scale(1.1);
+}

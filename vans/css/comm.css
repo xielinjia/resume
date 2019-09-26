@@ -1,0 +1,167 @@
+/* div {
+    display: block;
+}
+body {
+    color: #666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+    min-width: 1110px;
+    word-break: break-all;
+    background-color: #F1F2ED;
+    position: relative;
+    overflow-x: hidden;
+}
+ */
+ body{min-width:1110px;}
+
+.maxFooter {
+    width: 100%;
+    position: relative;
+    background-color: #1c1c1c;
+    margin-top: 60px;
+    z-index: 9;
+    height:470px;
+}
+/* 1-1总体布局-footer */
+.footer {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0px;
+    position: relative;
+    display:-webkit-box;
+}
+/* @media (max-width: 1440px)
+.maxFooter .footer, .maxFooter .F-buttom {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+} */
+.footer .foot-l {
+    width: 33.333%;
+    min-width: 330px;
+    height: 265px;
+    border-right: 1px solid #919191;
+}
+
+.foot-l,.foot-c{float:left;}
+
+.footer .foot-r {
+    width: 330px;
+    height: 265px;
+    border-left: 1px solid #919191;
+}
+.foot-r {
+    float: right;
+    right:-22%;
+}
+.foot-l,.foot-c,.foot-r{position:relative;}
+/* 1-2总体布局-F-bottom */
+.F-bottom {
+    width: 1440px;
+    height: 146px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+
+/* 1-1-1，1-2-1宽高，字体等基本样式 */
+.f1{float:left;}
+.footer .foot-l .help ,.footer .foot-c .help,.footer .foot-r .search{
+    color: #fff;
+    line-height: 26px;
+}
+h6{color: #fff;
+    font-weight: bold;
+    font: 14px/150%;
+}
+ul{padding-left: 0;
+    list-style: none;
+    
+}
+.foot-l .article a ,.foot-c .center a{
+    font: 15px/26px "Franklin-Book","冬青黑体","microsoft yahei";
+    color: #589BC6;
+    text-decoration: none;
+}
+.foot-l .article a:hover,.foot-c .center a:hover {
+    color: #D6000F;
+}
+.article,.center,.clearfix{margin-top:25px;
+    margin-bottom: 15px;}
+.foot-l,.foot-c,.foot-r .SureLook{margin-left: 40px;}
+.foot-c .center p,.F-bottom .cardID{
+    color:#919191;
+    font-weight:normal;
+    margin-top:0px;
+    text-decoration: none;
+}
+/* 1-1-2右上部分图标属性 */
+.foot-r .clearfix a{float:left;}
+.foot-r .SureLook li a{
+    margin-right:10px;
+    text-decoration: none;
+    color:#fff;
+    background:#64686b;
+    font-size:36px;
+    transition: background 0.2s linear;
+}
+.foot-r .SureLook li .fa-weixin:hover{background-color:green;}
+.foot-r .SureLook li .fa-weibo:hover{background-color:red;}
+.foot-r .SureLook li .fa-qq:hover{background-color:yellow;}
+.foot-r .SureLook li .fa-youtube:hover{background-color:blue;}
+.foot-r .SureLook li .fa-instagram:hover{background-color:purple;}
+/* 1-2-1左下角图标logo样式 */
+.b-log{float:left;width:222px;height:91px;
+    background:url(/image/vans-logo-white.svg) no-repeat;
+    background-size: 100% auto;
+    color:#666;
+}
+/* 1-2-2底部-右上方字体样式 */
+.F-bottom .b-l{float:left;margin-left:22px;}
+.F-bottom .b-text .company{
+    font: 15px/26px "Franklin-Book","冬青黑体","microsoft yahei";
+    color: #589BC6;
+    text-decoration: none;
+}
+/* 1-2-3底部-右下方滚动选项条样式 */
+.fa-chevron-down{
+    line-height: 35px;
+    /* padding:0; */
+}
+
+/* 待修改-----滚动条 */
+/* .foot-l,.foot-c,.foot-r,.F-bottom{position: relative;} */
+.b-country .title {
+    width: 88px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    cursor: pointer;
+    background: #64686b  no-repeat;
+    background-size: 12px auto;
+}
+.title{font-size: 14px;color:#fff;}
+.country .country-list {
+    display: none;
+    position: absolute;
+    bottom: 63px;
+    left: 297px;
+    width: 240px;
+    height: 410px;
+    overflow-y: scroll;
+    z-index: 1010;
+    background-color: #fff;
+    border: solid 1px #ccc;
+}
+.country .country-list li.first {
+    background: #eee;
+}
+.country .country-list li {
+    padding: 0 10px;
+    height: 45px;
+    line-height: 41px;
+}
+li {
+    display: list-item;}
+.country .country-list:active{display:block;}

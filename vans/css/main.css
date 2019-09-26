@@ -1,0 +1,331 @@
+h1, h2, h3, h4, h5, h6, ul, li, a, img{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #666;
+    font-size: 100%;
+    text-decoration:none;
+}
+img{
+    width:100%;
+    height:auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'Franklin-Demi',"冬青黑体","microsoft yahei";
+}
+/* .indexPage::before{
+    content:"";
+    display: block;
+    clear: both;
+} */
+.indexPage{
+    max-width:1440px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    /* padding-top:105px; */
+}
+.indexPage .slider{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+#ul-imgs{
+    list-style:none;
+    display:flex;
+    flex-wrap: nowrap;
+    width:500%;
+}
+#ul-imgs>li{
+    /* position: relative; */
+    width:20%;
+    flex-shrink:0;
+}
+#ul-idxs{
+    width:100px;
+    margin:0 auto;
+    list-style:none;
+    position:absolute;
+    bottom:25px;
+    left:50%;
+  }
+#ul-idxs>li{
+    float:left;
+    width:10px; height:10px;
+    background-color:#fff;
+    border-radius:5px;
+    margin:0 5px;
+    cursor:pointer;
+  }
+  #ul-idxs>li.active{
+    background-color:#000;
+  }
+  #ul-idxs>li img{
+      width:100%;
+      transition: all .5s ease;
+  }
+  #btn-left{
+      left:20px;
+      top:50%;
+  }
+  #btn-right{
+    right:20px;
+    top:50%;
+}
+#btn-left,#btn-right{
+    display:block;
+    position:absolute;
+    width:5%;
+    height:5%;
+    z-index: 9;
+    cursor:pointer;
+}
+/* .slider::after{
+    content:'';
+    display:block;
+    clear:both;
+} */
+
+/* 中部轮播图 -----------------------*/
+.indexPage .index_article{
+    margin-top:22px;
+    position:relative;
+}
+@media (max-width: 1500px){
+    .indexPage .index_article {
+    margin: 22px 40px 0;
+}}
+.index_article .swiper_container{
+    position:relative;
+    margin:0;
+    /* margin:0 -12px; */
+    width:100%;
+}
+.index_article .swiper_container{
+    overflow:hidden;
+}
+.index_article .swiper_container ul{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.index_article .swiper_container li{
+    padding:0;
+    /* width:100%; */
+    /* height:100%; */
+    /* position:relative;
+    display:inline-block; */
+    /* width:488px; */
+    /* float:left; */
+    
+}
+.swiper_container li>div:nth-child(1){
+    /* width:1/3; */
+    height:auto;
+}
+.swiper_container li>div:nth-child(1),.swiper_container li>div:nth-child(2){
+    text-align:center;
+    padding:0 12px;
+}
+.swiper_container li>div:nth-child(2){
+    width:100%;
+    height:auto;
+}
+.swiper_container li>div:nth-child(2)>h1{
+    padding:15px;
+    margin-top:8px;
+}
+.swiper_container a{
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration:none;
+}
+.swiper_container h1 a{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 2px;
+}
+.swiper_container li>div:nth-child(2)>p{
+    padding:0 20px;
+    height:46px;
+}
+.swiper_container li>div:nth-child(2)>a{
+    width:180px;
+    height:48px;
+    line-height: 48px;
+    background:#2b2b2b;
+    color:#fff;
+    font-size:16px;
+    margin:15px auto 0;
+    text-align:center;
+    transition: all .5s ease;
+}
+.swiper_container li>div:nth-child(2)>a:hover{
+    background-color: #474747;
+}
+.index_article div.btn {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #000;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 9;
+    cursor: pointer;
+}
+.index_article .btn.swiper_prev {
+    left: -17px;
+    border-color: transparent transparent #000 #000;
+    transform: rotate(45deg);
+    padding:0;
+    box-sizing:content-box;
+    border-right:0;
+}
+.index_article .btn.swiper_next {
+    right: -17px;
+    border-color: #000 #000 transparent transparent;
+    transform: rotate(45deg);
+    padding:0;
+    box-sizing: content-box;
+    border-left:0;
+}
+.indexPage .index_article img{
+    cursor: pointer;  
+    transition: all .5s ease;
+}
+.indexPage .index_article img:hover{
+    transform: scale(1.1);
+}
+
+/* 三张图片---------------------------------- */
+.indexPage>div:nth-child(3){
+    margin-top:72px;
+}
+.indexPage>div:nth-child(3) div{
+    clear: both;
+}
+.indexPage>div:nth-child(3) ul{
+    width:100%;
+    /* max-width: calc(100% + 30px); */
+}
+.indexPage>div:nth-child(3) ul li{
+    float:left;
+    padding-right:15px;
+    padding-left:15px;
+    box-sizing: border-box;
+}
+.indexPage>div:nth-child(3) ul li a{
+    display:block;
+    position:relative;
+    overflow:hidden;
+}
+.indexPage>div:nth-child(3) ul li img{
+    width: 100%;
+    height:auto;
+    vertical-align:center;
+    cursor: pointer;  
+    transition: all .5s ease;
+}
+.indexPage>div:nth-child(3) ul li img:hover,.indexPage>div:nth-child(3) ul li a:hover img{
+    transform: scale(1.1);
+}
+.indexPage>div:nth-child(3) ul li a span{
+    display:block;
+    position:absolute;
+    text-align:center;
+    color:#fff;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight:bolder;
+    width:100%;
+}
+
+.index_col ul li .text{
+    top: 118px;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.index_col ul li .p {
+    top: 170px;
+    font-size: 20px;
+    line-height:2;
+}
+.indexPage::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/* 下图------------- */
+.bottom_filed{
+    margin-top: 22px;
+    background: #f1f2ed;
+}
+.bottom_filed>div:nth-child(1){
+    width:100%;
+    max-width: 1440px;
+    margin:0 auto;
+    clear:both;
+}
+.bottom_filed>div:nth-child(1) .title{
+    width: 100%;
+    font-size: 36px;
+    line-height: 120px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    margin: 0;
+    text-align:center;
+}
+.bottom_filed>div:nth-child(1) ul{
+    width:100%;
+}
+.bottom_filed>div:nth-child(1) ul li{
+    float:left;
+    box-sizing:border-box;
+    margin-bottom:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.bottom_filed>div:nth-child(1) ul li a{
+    display:block;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    text-decoration:none;
+    transition: all 0.5s ease;
+}
+.bottom_filed>div:nth-child(1) ul li a img{
+    display:block;
+    width:100%;
+}
+.bottom_filed ul li .text {
+    display: block;
+    text-align: center;
+    font: bold 18px/30px "Franklin-Demi","冬青黑体","microsoft yahei";
+    padding: 15px 0 10px;
+    color: #000;
+}
+.bottom_filed ul li .p{
+    display:block;
+    text-align:center;
+    height:70px;
+    font-size:16px;
+    color:#000;
+    line-height:1.6;
+}
+.bottom_filed::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.show_a span{
+    background:#fff !important;
+    color:#000 !important;
+    transition:all .5s ease;
+}
+.show_a:hover span{
+    background:#000 !important;
+    color:#fff !important;
+}

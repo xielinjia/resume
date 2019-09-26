@@ -1,0 +1,379 @@
+*{margin:0;padding:0;}
+body{min-width:1110px;
+    /* padding-top:70px; */
+    overflow-x: hidden;
+}
+em{
+    font-style:normal;
+}
+.Heade {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    z-index:9999;
+}
+.header{
+    width:100%;
+    position:absolute;
+    z-index: 999;
+}
+.header .Top {
+   width: 100%; 
+   max-width: 1300px; 
+   height: 48px;
+   padding: 0 15px;
+   margin: 0 auto;
+   box-sizing: border-box;  
+}
+.header .Top>div{
+    float: right;
+    font: 15px/48px "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #9b9b9b;
+    margin-left: 20px;
+    letter-spacing:1px;
+    z-index:9999;
+}
+.text1 a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #9b9b9b;
+    list-style: none;
+    text-decoration: none;
+}
+.breakLine::before{
+    content:"/";
+    color:#9b9b9b !important;
+}
+.fa-shopping-cart::before,.fa-user::before, 
+.breakLine::before,.fa-map-marker::before{
+    font-size:12px;
+    font-weight:normal;
+    margin-right: 5px;
+}
+.hdMenuBox{
+    background-color: #fff;
+    z-index:99;
+    width:100%;
+    border-bottom:1px solid #999;
+}
+.hdMenu{
+    width:100%;
+    max-width:1300px;
+    height:130px;
+    margin:0 auto;
+    
+}
+.clear{clear:both;}
+.Logo{width:156px;
+    height:130px;
+    background:url(/image/vans-logo.svg) no-repeat left center;
+    background-size:156px auto;
+    position:absolute;
+    float:left;
+    cursor:pointer;
+    
+}
+.hdSearch{
+    float:right;
+    margin-top:70px;
+    position:relative;
+    
+}
+.maxSearch{
+    width:178px;
+    height:26px;
+    line-height:20px;
+    border:1px solid #d2d2d2;
+    margin-top:7px;
+    float:left;
+}
+.maxSearch input{
+    float:left;
+    width:146px;
+    height:20px;
+    border:0;
+    padding:0;
+    outline:none;
+    /* text-indent: 10px; */
+    margin-top:2px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+.maxSearch .btn_search{
+    width:30px;
+    height:26px;
+    border:0;
+    padding:0;
+    cursor:pointer;
+    background:none;
+    float:right;
+    position: absolute;
+    /* display:list-item;  */
+}
+input::-webkit-input-placeholder {
+   color: #d2d2d2;
+   font-size: 13px;
+   padding-left:10px;
+   font-weight:bold;
+   }
+.fa.fa-search{
+    color:#9b9b9b!important;
+    font-weight:normal !important;
+}
+.hdSearch .hotSearch{
+    position:absolute;
+    width:300px;
+    right:0;
+    top:35px;
+    background-color:rgba(0,0,0,.8);
+}
+.hdSearch .hotSearch a{
+    display:block;
+    line-height:2;
+    color:#fff;
+    text-decoration:none;
+    padding:0 12px;
+    margin:5px 0;
+    font-size:14px;
+    cursor:pointer;
+}
+.hdSearch .hotSearch .last{
+    border-bottom:1px dashed gray;
+}
+a:hover{color:#c8192e}
+/* .hdSearch .hotSearch a:hover{
+    color:red; */
+/* input::input-placeholder{
+    color:#9b9b9b;
+    }　 */
+.Menu{
+    margin-top:71px;
+    margin-right:10px;
+    float:right;
+    z-index:9999;
+    display:block;
+}
+.Menu .breadcrumb {
+    display:-webkit-box;
+    background-color: transparent;
+    display:flex;
+    flex-wrap: wrap;
+}
+.Menu .breadcrumb li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* color: #666; */
+    font-size: 100%;
+    /* height:50px !important; */
+}
+/* .breadcrumb{
+    float: left;
+    display: inline;
+} */
+.Menu .breadcrumb-item a{
+    color: #000;
+    /* display: block; */
+    font-weight: bold;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    /* padding-right: 18px;
+    padding-left:25px; */
+}
+/* .Menu .breadcrumb .a1{
+    padding-left:25px;
+} */
+/* .Menu .breadcrumb i{
+    padding-left:10px;
+    padding-right:10px;
+}    */
+.breadcrumb{
+    /* position:relative; */
+    margin:0;padding:0;
+    /* margin-top:10px; */
+    height:30px;
+    margin-bottom: 0;
+}
+.breadcrumb-item>a{
+    /* padding-bottom:2rem !important; */
+    display:inline-block !important;
+    line-height: 50px !important;
+    vertical-align: center !important;
+}
+.breadcrumb-item:hover>div{
+    display:block;
+}
+.breadcrumb-item>div:hover{
+    display:block;
+}
+@media (max-width: 1300px){
+.breadcrumb-item>div>div {
+    padding: 40px 15px !important;
+    /* box-sizing: border-box; */
+}
+.hdMenu{
+    padding:0 15px;
+}
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    /* display: inline-block; */
+    padding-right: 8px;
+    padding-left: 0;
+    height:50px !important;
+    /* color: #6c757d;
+    content: "/"; */
+}
+.breadcrumb-item::before{
+    /* padding-right:25px; */
+    padding-left:0px;
+}
+.fa-angle-down:before {
+    padding-left:10px;
+    padding-right:10px;
+}
+.breadcrumb-item a{
+    margin-left:0;
+    margin-right:0;
+}
+/* 详情列表 */
+.Menu .box11,.Menu .box22{
+    position:absolute;
+    width:100%;
+    background:#000;
+    z-index:9999;
+    left:0;
+    top:135px ;
+    overflow: hidden;
+}
+.Menu .box11 .list1{
+    width:1300px;
+    max-width:100%;
+    
+    padding:50px 0;
+    position:relative;
+    overflow:hidden;
+    z-index:99;
+    margin:0 auto;
+    box-sizing: border-box;
+    /* display:flex; */
+}
+
+.Menu .box11 ul{
+    min-width:20%;
+    /* margin:0 auto; */
+    /* flex-wrap: nowrap; */
+    
+}
+.Menu .box11 ul li{
+    display:flex;
+    /* justify-content: space-around; */
+}
+.Menu .box1 ul li a{
+    display:inline-block;
+    width:25%;
+    text-align: left;
+}
+.Menu .box11 a{
+    font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei";
+    color:#fff;
+    text-align:center;
+    /* flex-wrap: nowrap;
+    align-items: center; */
+}
+.Menu .box2 ul li a{
+    display:inline-block;
+    width:50%;
+    text-align: left;
+}
+.Menu .box22 .list2 a{
+    display: block;
+}
+.Menu .box22 .list2{
+    width:1300px;
+    max-width:100%;
+    box-sizing: border-box;
+    
+    padding:50px 0;
+    position:relative;
+    /* overflow:hidden; */
+    z-index:99;
+    margin:0 auto;
+    /* display:flex; */
+}
+
+.row{margin:0}
+.col{padding:0}
+li img{text-align:right;}
+.Menu .box22 .list2 .list_key{
+    font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei";
+    color:#fff;
+    text-decoration: none;
+}
+.Menu .box22 .list2 .list_style a{
+    font-size: 15px;
+    line-height: 28px;
+    color: #589BC6 ;
+    /* display: block; */
+    text-decoration: none;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    font-weight:normal;
+}
+.Menu .box6 ul li a{
+    display:inline-block;
+    width:25%;
+    text-align: left;
+}
+.breadcrumb a{
+    text-decoration:none;
+}
+.breadcrumb .box1,.box2,.box3,.box4,.box5,.box6{
+    display:none ;
+}
+#lastLine{
+    width:100%;
+    height:16px;
+    background-color:#000;
+    position: relative;
+}
+#lastLine>span{
+    text-align: center;
+    position: relative;
+    margin:0 auto;
+    display: block;
+    height:100%;
+}
+#lastLine>span>a{
+    color:#589BC6;
+    font-size: .8125rem;
+    height:16px;
+    line-height: 16px;
+    display: block;
+    position: relative;
+    margin:auto 0;
+    text-decoration:none;
+}
+.box22 .list_style a:hover,.a1:hover,
+.a2:hover,.a3:hover,.a4:hover,.a5:hover,
+.a6:hover,.a7:hover
+{
+    /* font-weight:bold; */
+    color:#c8192e !important;
+}
+
+
+
+/* 固定定位时 */
+@media (max-width: 974px){
+    div.hdMenuBox{
+        height:100px !important;
+    }
+}
+@media (max-width: 795px){
+    div.hdMenuBox{
+        height:150px !important;
+    }
+    li.breadcrumb-item{
+        height:50px !important;
+    }
+}

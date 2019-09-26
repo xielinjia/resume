@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #666;
+    font-size: 100%;
+}
+
+body{
+    background: #f1f2ed;
+    color:#666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+    margin:0;
+    /* overflow-x: hidden; */
+}
+a{text-decoration:none !important;}
+.banner_max a:hover{color:#C9192E !important}
+.banner_max{
+    width:1440px;
+    max-width:100%;
+    margin:20px auto;
+    padding-bottom:15px;
+    margin-bottom:15px;
+    letter-spacing: 2px;
+    border-bottom: 1px dotted #d7d8d3;
+}
+.banner_max>.banner_box{
+    overflow: hidden;
+}
+.banner_max>.banner_box>.bebnav{
+    float:left;
+    color:#589BC6;
+    font-size: 16px;
+    line-height:30px;
+    font-weight:600;
+    padding:0 34px 0 30px;
+    background:url(../image/break-grey.svg) no-repeat right center;
+    background-size:9px auto;
+    margin:0 auto;
+    white-space: nowrap;
+}
+.MAXBOX>.banner_box>.bebnav.first{
+    padding-left:0;
+}

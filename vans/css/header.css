@@ -1,0 +1,135 @@
+*{margin:0;padding:0;}
+body{min-width:1110px;}
+.Heade {
+     width: 100%; 
+    background-color: #fff;
+    
+}
+    .header {
+        /* top: 0; */
+        width: 100%; 
+        max-width: 1300px;
+        vertical-align:center;
+        height:130px;
+        margin: 0 auto;
+        /* display:-webkit-box; */
+    }
+.header .Top {
+     width: 100%; 
+     /* max-width: 1300px;  */
+    height: 48px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.login {
+    display: inline;
+    /*padding: 0.5rem 1rem;*/
+}
+.nav{justify-content:flex-end}
+.vans-icon-break::before{content:"/";}
+.header .hdLinks .vans-icon-addr:before, .hdLogin .vans-icon-mem:before {
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 5px;}
+    .header .Top  {
+        float: right;
+        font: 15px/48px "Franklin-Demi","冬青黑体","microsoft yahei";
+        color: #9b9b9b;
+        margin-left: 20px;
+        z-index: 9999;
+        letter-spacing: 1px;
+        position:relative;
+    }
+
+       .Top a {
+        font-size: 16px;
+        font-weight: bold;
+        color: #9b9b9b;
+        padding:0;}
+        .hdLogins,.hdCart{margin-left:20px;}
+        .fa-shopping-cart::before,.fa-user::before,.fa-map-marker::before{
+            margin-right: 5px;font-weight: normal}
+        .vans-icon-break::before{margin:0px 2px;font-weight: normal}
+
+        .header .logo{width:156px;height:130px;
+            background:url(/image/vans-logo.svg) no-repeat left center;
+            background-size: 156px auto;
+            position: absolute;
+            float:left;
+        }
+        .menu{
+            /* margin-top:71px; */
+            /* margin-right: 10px; */
+            float: right;
+            display: block;
+            z-index: 9999;
+        }
+        ul, li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            /* color: #666; */
+            font-size: 100%;}
+        
+        .menu a {
+                color: #000;
+                /* display: block; */
+                font-weight: bold;
+                font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+                list-style: none;
+                line-height:50px !important;
+                display:inline-block !important;
+                vertical-align: center;
+                /* float: left; */
+                /* position: absolute; */
+            }
+            .breadcrumb {background-color: #fff;display:-webkit-box;}
+            /* .breadcrumb-item+.breadcrumb-item::before{content:">"} */
+            .maxSearch{float:right;}
+            /* .maxSearch input{position:relative;} */
+            /* .maxSearch button{display: block;float:left;position:absolute;} */
+            .maxSearch {
+                width: 178px;
+                height: 26px;
+                line-height: 20px;
+                border: 1px solid #d2d2d2;
+                margin-top: 10px;
+            }
+                .maxSearch input{
+                    float: left;
+                    width: 146px;
+                    height: 20px;
+                    border: 0;
+                    padding: 0;
+                    text-indent: 10px;
+                    outline: none;
+                    margin-top: 2px;
+                    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+                    *font-size: 15px;
+                }
+                .btn_search {
+                    width: 30px;
+                    height: 26px;
+                    border: 0;
+                    padding: 0;
+                    cursor: pointer;
+                    background: none;
+                    float: right;
+                }
+                .fa.fa-search:before {
+                    content: "\00a0";
+                    color: #9b9b9b;}
+                    .menu{left:30%}
+                i.fa.fa-angle-down::before {
+                    padding-left: 10px;
+                    /* content: "\00a0";  */
+                }
+                 /* .breadcrumb li{padding-left: 18px;}  */
+                 .breadcrumb-item::before{
+                    height:50px !important;
+                }

@@ -1,0 +1,212 @@
+h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #666;
+    font-size: 100%;
+}
+
+body{
+    background: #f1f2ed;
+    color:#666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+}
+input{
+    border:1px solid #ccc;
+}
+a{
+    text-decoration:none !important;
+}
+/* .main::before{
+    display: table;
+    content:'';
+} */
+.main>.signin-page-wrap {
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: "Franklin-Demi","microsoft yahei","microsoft yahei";
+    margin-top: 60px;
+}
+#page-signin{
+    width:600px;
+    margin:0 auto;
+    border:1px solid #c9caca;
+    background: #fff;
+    padding-bottom:20px;
+}
+.sign-title {
+    margin-top: 35px;
+    border: 0;
+    margin-bottom: 10px;
+    padding-left: 59px;
+    height:44px;
+}
+.sign-title h2 {
+    border-bottom: 2px solid;
+    padding: 0px;
+    color: #C9192E;
+    font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+    width:160px;
+    text-align: left;
+    float:left;
+    background:#fff;
+    cursor: pointer;
+}
+/* .FORM>ul{
+    position: relative;
+} */
+ul>.form-action {
+    margin-bottom: 20px !important;
+    height: auto;
+    overflow: visible;
+    font-size: 116.66667%;
+}
+li .form-act {
+    padding-left: 59px;
+    margin-left: 0;
+    position: relative;
+    display: block;
+}
+li .form-act .x-input {
+    width: 458px;
+    height: 50px;
+    line-height: 26px;
+    padding: 11px 0;
+    padding-left: 22px;
+    border-color: #d7d8d4;
+    font-size: 16px;
+    font-family: "Franklin","冬青黑体","microsoft yahei";
+    box-sizing: content-box;
+    border-width: 1px;
+}
+li .form-act .verify-input {
+    width: 242px;
+    margin-right: 8px;
+}
+.yanzhengma{
+    width:60px;
+    height:16px;
+    color: #d2d2d2;
+    vertical-align: middle;
+    list-style: none;
+}
+li .fr {
+    margin-right: 59px;
+    line-height: 32px;
+    color: #d2d2d2;
+    font-size: 16px;
+    width: auto;
+    font-weight: normal;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    float:right;
+}
+/* .SPAN{
+    line-height: 32px;
+} */
+li .form-act2 {
+    padding-left: 59px;
+    margin-left: 0;
+    position: relative;
+    
+    /* display: block; */
+}
+li .form-act2 a>span,li .form-act2:hover{
+    text-decoration: none !important;
+}
+li .form-act2 button {
+    
+    width: 310px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    font-size: 16px;
+    border: 0;
+    background: #C9192E;
+    color: #fff !important;
+    transition: all .5s ease;
+}
+li .form-act2 button:hover{
+    background: #000;
+    filter: none;
+    cursor: pointer;
+}
+li .btn-passport {
+    margin-left:20px;
+    display:inline-block;
+    width: 150px ; 
+    height: 50px ;
+    line-height: 50px ;
+    background: #000 ;
+    text-align: center ;
+    font-size: 16px ;
+    color: #fff !important;
+    margin-right: 59px ;
+}
+.trust-signin {
+    margin: 25px 59px 5px;
+    border: 0;
+    overflow: hidden;
+    
+}
+.trust-signin span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    vertical-align: middle;
+    float: left;
+    line-height: 37px;
+}
+
+
+
+.trust-signin>a{
+    background: url(/image/weixin1.svg) no-repeat center center;
+    background-size:40px 40px;
+    margin: 0!important;
+    margin-right: 10px!important;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right:10px;
+    border-radius: 0;
+    transition: all .5s ease;
+}
+.trust-signin>a:hover{
+    background: url(/image/weixin2.svg);
+    background-size:40px 40px;
+    margin: 0!important;
+    margin-right: 10px!important;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right:10px;
+    border-radius: 0;
+    
+}
+.trust-signin>a:nth-child(2){
+    background-image:url(/image/weixin1.svg); 
+}
+.trust-signin>a:nth-child(2):hover{
+    background-image:url(/image/weixin2.svg);
+}
+
+.trust-signin>a:nth-child(3){
+    background-image:url(/image/weibo1.svg);
+}
+.trust-signin>a:nth-child(3):hover{
+    background-image:url(/image/weibo2.svg);
+}
+.trust-signin>a:nth-child(4){
+    background-image:url(/image/qq1.svg);
+}
+.trust-signin>a:nth-child(4):hover{
+    background-image:url(/image/qq2.svg);
+}
+.trust-signin>a:nth-child(5){
+    background-image:url(/image/zhifubao1.svg);
+}
+.trust-signin>a:nth-child(5):hover{
+    background-image:url(/image/zhifubao2.svg);
+}
